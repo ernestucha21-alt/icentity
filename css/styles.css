@@ -1,0 +1,302 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+body{
+  background:#d9d9d9;
+}
+
+/* HEADER */
+
+header{
+  background:black;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  padding:15px 40px;
+}
+
+.logo{
+  width:120px;
+}
+
+nav a{
+  color:white;
+  text-decoration:none;
+  margin-left:20px;
+  font-size:12px;
+}
+
+/* HERO */
+
+.hero{
+  background:white;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+
+  padding:20px 60px;
+}
+
+.texto-hero{
+  width:50%;
+}
+
+.texto-hero h1{
+  font-size:60px; /* mas chico */
+  line-height:1; /* normal */
+}
+
+.texto-hero span{
+  color:#ff6fb5;
+}
+
+.texto-hero p{
+  margin-top:20px;
+  font-size:20px;
+  color:gray;
+}
+
+.helado-principal{
+  width:500px;
+}
+/* FUNCIONA */
+
+.funciona{
+  background:#ececec;
+  padding:40px 40px;
+  text-align:center;
+}
+
+.funciona h2{
+  font-size:45px;
+  margin-bottom:30px;
+}
+
+.contenedor-pasos{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+}
+
+.paso{
+  background:white;
+  width:420px;
+  padding:25px;
+}
+
+.numero{
+  width:50px;
+  height:50px;
+  border-radius:50%;
+  color:white;
+
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+  margin:auto;
+  margin-bottom:15px;
+
+  font-size:25px;
+}
+
+.rosa{
+  background:#ff6fb5;
+}
+
+.violeta{
+  background:#8e5cff;
+}
+
+.azul{
+  background:#4f8cff;
+}
+
+.paso img{
+  width:65px;
+  margin-bottom:15px;
+}
+
+.paso h3{
+  font-size:20px;
+  margin-bottom:10px;
+}
+
+.paso p{
+  font-size:15px;
+  color:gray;
+}
+
+
+
+/* EXPERIENCIA */
+
+.experiencia{
+  background:white;
+  padding:40px;
+  text-align:center;
+}
+
+.experiencia h2{
+  font-size:38px;
+}
+
+.contenedor-cards{
+  display:flex;
+  justify-content:center;
+  gap:20px;
+  margin-top:30px;
+}
+
+.card{
+  width:520px;
+  padding:25px;
+
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+
+.rosa-fondo{
+  background:#ff6fb5;
+}
+
+.violeta-fondo{
+  background:#8e5cff;
+}
+
+.texto-card{
+  text-align:left;
+  color:white;
+}
+
+.texto-card h3{
+  font-size:26px;
+  margin-bottom:12px;
+}
+
+.texto-card p{
+  font-size:15px;
+}
+
+.texto-card button{
+  margin-top:18px;
+  padding:10px 18px;
+  border:none;
+  background:black;
+  color:white;
+}
+
+.card img{
+  width:170px;
+}
+
+/* COLABORACION */
+
+.colaboracion{
+  background:white;
+  padding:50px;
+  text-align:center;
+}
+
+.colaboracionfoto{
+  width:100%;
+}
+
+/* FOOTER */
+
+footer{
+  background:black;
+  color:white;
+  display:flex;
+  justify-content:space-around;
+  align-items:center;
+  padding:30px;
+}
+
+.footer-info{
+  text-align:center;
+}
+
+.footer-info img{
+  width:20px;
+  margin-top:10px;
+}
+
+.footer-centro{
+  text-align:center;
+}
+
+.footer-centro img{
+  width:140px;
+  margin-bottom:10px;
+}
+
+/* SABORES */
+
+.sabores{
+  background:#f2f2f2;
+
+  width:90%;
+  margin:auto;
+
+  text-align:center;
+
+  padding-top:60px;
+  padding-bottom:60px;
+  padding-left:40px;
+  padding-right:40px;
+}
+
+.sabores h1{
+  margin-bottom:70px;
+  font-size:50px;
+}
+
+/* CONTENEDOR */
+
+.contenedor-sabores{
+  display:flex;
+
+  flex-wrap:wrap;
+
+  justify-content:center;
+
+  gap:60px;
+}
+
+
+h1 span{
+  color:#ff6fb5;
+}
+
+/* CADA SABOR */
+
+.sabor{
+  width:200px;
+
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+}
+
+.sabor img{
+  width:200px;
+  height:200px;
+
+  border-radius:50%;
+
+  object-fit:cover;
+}
+
+.sabor p{
+  margin-top:15px;
+
+  font-size:12px;
+  font-weight:bold;
+}
