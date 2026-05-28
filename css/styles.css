@@ -689,3 +689,29 @@ h2 span{
   width: 55%;
   max-width: 520px;
 }
+
+.navbar {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.navbar .logo {
+  width: 130px;
+}
+
+.nav-link {
+  font-weight: 700;
+  color: #111 !important;
+}
+
+.nav-link:hover {
+  color: #ff78b7 !important;
+}
+
+.navbar-toggler {
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: none;
+}
