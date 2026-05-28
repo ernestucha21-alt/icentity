@@ -80,8 +80,8 @@ nav a{
 
 
 .texto-hero h1{
-  font-size:60px; /* mas chico */
-  line-height:1; /* normal */
+  font-size:60px; 
+  line-height:1; 
 }
 
 
@@ -526,7 +526,56 @@ h1 span{
 /* NOSOTROS */
 .nosotros{
   background:#f2f2f2;
+  padding: 80px 20px;
   text-align: center;
+}
+
+
+.nosotros h1{
+  font-weight: bold;
+}
+
+
+h2 span{
+  color:#ff6fb5;
+}
+
+
+.nosotros p{
+  font-size: 20px;
+  max-width: 500px;
+  margin: 50px auto;
+  line-height: 2.5;
+}
+
+
+.nosotrosfotos{
+  position: absolute;
+  width: 140px;
+}
+
+
+.nosotrosf1{
+  left: 0;
+  top: 180px;
+}
+
+
+.nosotrosf2{
+  right: 0;
+  top: 120px;
+}
+
+
+.nosotrosf3{
+  left: 30px;
+  bottom: 40px;
+}
+
+
+.nosotrosf4{
+  right: 20px;
+  bottom: 80px;
 }
 
 
@@ -534,7 +583,7 @@ h1 span{
   background: #DBDBDB;
   display: flex;
   justify-content: center;
-  gap: 80px;
+  gap: 100px;
   padding: 70px 40px;
   flex-wrap: wrap;
 }
@@ -542,13 +591,14 @@ h1 span{
 
 /* CADA CUALIDAD */
 .cualidad{
-  width: 220px;
+  width: 250px;
   text-align: center;
 }
 
 
 .cualidad img{
   width: 90px;
+  height: 90px;
   margin-bottom: 25px;
 }
 
@@ -565,4 +615,77 @@ h1 span{
     font-size: 22px;
     color: #121212;
     line-height: 1.6;
+}
+
+/* RESULTADO 1 */
+
+.resultado-uno {
+  background-color: #f4f4f4;
+  padding: 55px 60px 45px;
+}
+
+.resultado-arriba {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+}
+
+.resultado-titulo h1 {
+  font-size: 42px;
+  line-height: 1.25;
+  color: #111;
+  font-weight: 900;
+}
+
+.resultado-titulo span {
+  color: #ff78b7;
+}
+
+.foto-personaje {
+  width: 40%;
+  max-width: 380px;
+}
+
+.resultado-texto {
+  background-color: white;
+  text-align: center;
+  padding: 35px 70px;
+  margin-top: 35px;
+}
+
+.resultado-texto h3 {
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 25px;
+  color: #333;
+}
+
+.resultado-texto p {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #333;
+}
+
+/* RESULTADO 2 SABORES */
+
+.resultado-dos-arriba{
+  text-align: center;
+}
+
+.resultado-dos-arriba h1{
+  font-size: 42px;
+  line-height: 1.3;
+  font-weight: 900;
+  color: #111;
+  margin-bottom: 35px;
+}
+
+.resultado-dos-arriba span{
+  color: #ff78b7;
+}
+
+.foto-dupla{
+  width: 55%;
+  max-width: 520px;
 }
