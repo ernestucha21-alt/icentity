@@ -22,31 +22,32 @@ body{
 
 header{
   background:black;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  padding:15px 40px;
 }
-
-
-
 
 .logo{
   width:120px;
 }
 
 
-
-
-nav a{
-  color:white;
-  text-decoration:none;
-  margin-left:20px;
-  font-size:12px;
+.navbar{
+  background:black;
+  min-height:80px;
 }
 
+.navbar-brand img{
+    width: 130px;
+}
 
+.nav-link{
+    color: white !important;
+    font-weight: bold;
+    font-size: 14px;
+    margin-left: 10px;
+}
 
+.navbar-nav .nav-link{
+  color: white !important;
+}
 
 /* HERO */
 
@@ -329,25 +330,43 @@ nav a{
 
 
 /* COLABORACION */
-
-
-
-
 .colaboracion{
   background:white;
   padding:50px;
   text-align:center;
 }
 
-
-
-
-.colaboracionfoto{
+.banner img{
   width:100%;
+  display:block;
 }
 
+.formulario{
+  padding: 80px 20px;
+  text-align: center;
+}
 
+.formulario h2{
+  font-weight: bold;
+  margin-bottom: 40px;
+}
 
+form{
+  max-width: 350px;
+  margin: auto;
+}
+
+.form-control{
+  margin-bottom: 15px;
+  border-radius: 0;
+}
+
+.btn-enviar{
+  background-color: #ff6fb5;
+  color: white;
+  wisth: 120px;
+  border-radius: 0;
+}
 
 /* FOOTER */
 
@@ -357,28 +376,19 @@ nav a{
 footer{
   background:black;
   color:white;
-  display:flex;
-  justify-content:space-around;
-  align-items:center;
   padding:30px;
 }
-
-
-
 
 .footer-info{
   text-align:center;
 }
 
 
-
-
 .footer-info img{
-  width:20px;
+  width:30px;
   margin-top:10px;
+  margin-bottom:20px;
 }
-
-
 
 
 .footer-centro{
@@ -386,11 +396,13 @@ footer{
 }
 
 
-
-
 .footer-centro img{
-  width:140px;
+  width:150px;
   margin-bottom:10px;
+}
+
+.footer-centro p{
+  margin-bottom: 40px;
 }
 
 
@@ -526,13 +538,21 @@ h1 span{
 /* NOSOTROS */
 .nosotros{
   background:#f2f2f2;
-  padding: 80px 20px;
+  padding: 60px 40px;
+}
+
+.container-nosotros{
+  position: relative;
+  max-width: 1200px;
+  margin: auto;
   text-align: center;
 }
 
 
 .nosotros h1{
+  font-size: 40px;
   font-weight: bold;
+  margin-bottom: 10px;
 }
 
 
@@ -549,52 +569,45 @@ h2 span{
 }
 
 
-.nosotrosfotos{
-  position: absolute;
-  width: 140px;
+.bolsa{
+  position:absolute;
+  width: 250px;
+  top: 0px;
+  right: -30px;
 }
 
 
-.nosotrosf1{
-  left: 0;
-  top: 180px;
+.bochas{
+  position:absolute;
+  width: 250px;
+  top: 200px;
+  left: -50px
 }
 
 
-.nosotrosf2{
-  right: 0;
-  top: 120px;
+.pote{
+  position:absolute;
+  width: 250px;
+  top: 370px;
+  right: -30px;
 }
 
 
-.nosotrosf3{
-  left: 30px;
-  bottom: 40px;
-}
-
-
-.nosotrosf4{
-  right: 20px;
-  bottom: 80px;
+.potegrande{
+  position:absolute;
+  width: 260px;
+  top: 500px;
+  left: -45px;
 }
 
 
 .cualidades{
   background: #DBDBDB;
-  display: flex;
-  justify-content: center;
-  gap: 100px;
-  padding: 70px 40px;
-  flex-wrap: wrap;
+  padding: 50px 0px;
 }
 
 
 /* CADA CUALIDAD */
-.cualidad{
-  width: 250px;
-  text-align: center;
-}
-
 
 .cualidad img{
   width: 90px;
@@ -616,6 +629,7 @@ h2 span{
     color: #121212;
     line-height: 1.6;
 }
+
 
 /* RESULTADO 1 */
 
@@ -689,6 +703,9 @@ h2 span{
   width: 55%;
   max-width: 520px;
 }
+
+
+/* NAV */
 
 .navbar {
   padding-top: 15px;
