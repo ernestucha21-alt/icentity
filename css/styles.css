@@ -639,12 +639,12 @@ h2 span{
 .resultado-arriba {
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  gap: 40px;
+  justify-content: center;
+  gap: 275px;
 }
 
 .resultado-titulo h1 {
-  font-size: 42px;
+  font-size: 60px;
   line-height: 1.25;
   color: #111;
   font-weight: 900;
@@ -655,8 +655,8 @@ h2 span{
 }
 
 .foto-personaje {
-  width: 40%;
-  max-width: 380px;
+  width: 450px;
+  margin-bottom: 50px;
 }
 
 .resultado-texto {
@@ -677,29 +677,6 @@ h2 span{
   font-size: 17px;
   line-height: 1.8;
   color: #333;
-}
-
-/* RESULTADO 2 SABORES */
-
-.resultado-dos-arriba{
-  text-align: center;
-}
-
-.resultado-dos-arriba h1{
-  font-size: 42px;
-  line-height: 1.3;
-  font-weight: 900;
-  color: #111;
-  margin-bottom: 35px;
-}
-
-.resultado-dos-arriba span{
-  color: #ff78b7;
-}
-
-.foto-dupla{
-  width: 55%;
-  max-width: 520px;
 }
 
 
