@@ -524,14 +524,14 @@ h1 span{
 
 .sabor p{
   margin-top:15px;
-
-
-
-
   font-size:12px;
   font-weight:bold;
 }
 
+.sabores a {
+  text-decoration: none;
+  color: inherit;
+}
 
 
 
