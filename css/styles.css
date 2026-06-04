@@ -59,8 +59,8 @@ header{
 
 
   display:flex;
-  justify-content:space-between;
   align-items:center;
+  gap: 80px;
 
 
 
@@ -80,7 +80,8 @@ header{
 
 .texto-hero h1{
   font-size:60px; 
-  line-height:1; 
+  line-height:1;
+  font-weight: 900; 
 }
 
 
@@ -103,7 +104,7 @@ header{
 
 
 .helado-principal{
-  width:500px;
+  width:650px;
 }
 /* FUNCIONA */
 
@@ -122,6 +123,7 @@ header{
 .funciona h2{
   font-size:45px;
   margin-bottom:30px;
+  font-weight: 600;
 }
 
 
@@ -241,7 +243,8 @@ header{
 
 
 .experiencia h2{
-  font-size:38px;
+  font-size: 45px;
+  font-weight: 600;
 }
 
 
@@ -295,8 +298,9 @@ header{
 
 
 .texto-card h3{
-  font-size:26px;
+  font-size: 30px;
   margin-bottom:12px;
+  font-weight: 550;
 }
 
 
@@ -647,7 +651,7 @@ h2 span{
   font-size: 60px;
   line-height: 1.25;
   color: #111;
-  font-weight: 900;
+  font-weight: 800;
 }
 
 .resultado-titulo span {
@@ -667,14 +671,14 @@ h2 span{
 }
 
 .resultado-texto h3 {
-  font-size: 18px;
+  font-size: 25px;
   font-weight: 400;
   margin-bottom: 25px;
   color: #333;
 }
 
 .resultado-texto p {
-  font-size: 17px;
+  font-size: 20px;
   line-height: 1.8;
   color: #333;
 }
