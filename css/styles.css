@@ -60,7 +60,7 @@ header{
 
   display:flex;
   align-items:center;
-  gap: 80px;
+  gap: 50px;
 
 
 
@@ -80,7 +80,7 @@ header{
 
 .texto-hero h1{
   font-size:60px; 
-  line-height:1;
+  line-height: 1.25;
   font-weight: 900; 
 }
 
@@ -575,7 +575,7 @@ h2 span{
   position:absolute;
   width: 250px;
   top: 0px;
-  right: -30px;
+  right: -25px;
 }
 
 
@@ -583,29 +583,35 @@ h2 span{
   position:absolute;
   width: 250px;
   top: 200px;
-  left: -50px
+  left: -30px
 }
 
 
 .pote{
   position:absolute;
-  width: 250px;
-  top: 370px;
+  width: 275px;
+  top: 380px;
   right: -30px;
 }
 
 
 .potegrande{
   position:absolute;
-  width: 260px;
-  top: 500px;
-  left: -45px;
+  width: 325px;
+  top: 550px;
+  left: -55px;
 }
 
 
 .cualidades{
   background: #DBDBDB;
   padding: 50px 0px;
+}
+
+@media (max-width: 992px) {
+  .ocultar{
+    display: none;
+  }
 }
 
 
@@ -644,7 +650,7 @@ h2 span{
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 275px;
+  gap: 125px;
 }
 
 .resultado-titulo h1 {
@@ -652,6 +658,7 @@ h2 span{
   line-height: 1.25;
   color: #111;
   font-weight: 800;
+  margin-left: 50px;
 }
 
 .resultado-titulo span {
@@ -659,7 +666,7 @@ h2 span{
 }
 
 .foto-personaje {
-  width: 450px;
+  width: 550px;
   margin-bottom: 50px;
 }
 
